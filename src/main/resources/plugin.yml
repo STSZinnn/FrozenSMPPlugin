@@ -1,0 +1,22 @@
+name: PunchSnowball
+version: 2.0.0
+main: com.example.punchsnowball.PunchSnowballPlugin
+api-version: '1.21.11'
+description: Frost custom PvP weapons with selection and settings menus, trust, spinning battleaxe and reactive stun-proof shield
+commands:
+  frost:
+    description: Open the Frost weapon menu and manage Frost settings or trust
+    usage: /frost
+permissions:
+  frost.menu:
+    description: Open Frost weapon selection GUI to obtain custom weapons
+    default: op
+  frost.reload:
+    description: Reload Frost config
+    default: op
+  frost.config:
+    description: Open the in-game Frost settings GUI
+    default: op
+  frost.trust:
+    description: Manage your own trusted-player list
+    default: true
